@@ -1,0 +1,41 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    text-align: center;
+    white-space: nowrap;
+    border-spacing: 0;
+    position: relative;
+    left: 0;
+    top: 40px;
+    margin: auto;
+}
+
+th {
+    background-color: #92d0de;
+}
+
+th, td {
+    min-width: 130px;
+    height: 40px;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #cecece;
+}
+
+td:first-child {
+    font-weight: 700;
+    background-color: #92d0de;
+
+}
+
+tr:first-child {
+    font-weight: 700;
+    background-color: #92d0de;
+    position: fixed;
+}
+
