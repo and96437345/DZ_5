@@ -1,7 +1,7 @@
 body, html {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 25px;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -18,6 +18,9 @@ body, html {
     /* background-color: blue; */
 }
 
+h2 {
+    font-weight: 900;
+}
 .menu {
     height: 100%;
     width: 100px;
@@ -25,13 +28,14 @@ body, html {
     position: fixed;
     top: 0;
     left: 0;
-
+    margin: 0;
+    overflow: hidden;
+    transition: 1s;
 }
 
 .content {
     padding: 40px 30px 40px 160px;
 }
-
 
 ul {
     list-style-type: none;
