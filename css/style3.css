@@ -1,0 +1,132 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ' Arial', sans-serif;
+    font-weight: 900;
+}
+
+.row {
+    max-width: 1100px;
+    height: 500px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.row__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px rgba(34, 60, 80, 0.6);
+    margin: 10px;
+    padding: 22px 0;
+    position: absolute;
+}
+
+.price {
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 700;
+
+}
+ .item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 20px;
+ }
+
+ .month {
+    margin-bottom: 13px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #bfbebe;
+ }
+ .buy {
+    height: 35px;
+    width: 85px;
+    border-radius: 4px;
+    border-style: none;
+    color: #fff;
+ }
+
+.h2 {
+    margin-bottom: -15px;
+ }
+
+.line {
+    height: 4px;
+    width: 100%;
+    background-color: #ca515e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 270px;
+    margin: auto;
+}
+.red {
+    background-color: #ca515e;
+}
+.orange {
+    background-color: #ca9251;
+}
+.blue {
+    background-color: #376286;
+}
+.green {
+    background-color: #6cbb4f;
+}
+.first {
+    left: 30px;
+    top: 30px;
+}
+.second {
+    left: 290px;
+    top: 30px;
+}
+.fird {
+    left: 550px;
+    top: 30px;
+}
+.fourth {
+    left: 810px;
+    top: 30px;
+}
+.first:hover {
+    top: 2px;
+    padding: 50px 20px;
+    left: 10px;
+    z-index: 1;
+    transition: 1s;
+}
+.second:hover {
+    top: 2px;
+    padding: 50px 20px;
+    left: 270px;
+    z-index: 1;
+    transition: 1s;
+}
+.fird:hover {
+    top: 2px;
+    padding: 50px 20px;
+    left: 530px;
+    z-index: 1;
+    transition: 1s;
+}
+.fourth:hover {
+    top: 2px;
+    padding: 50px 20px;
+    left:790px;
+    z-index: 1;
+    transition: 1s;
+}
